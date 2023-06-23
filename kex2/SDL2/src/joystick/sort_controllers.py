@@ -7,7 +7,7 @@ import re
 
 filename = "SDL_gamecontrollerdb.h"
 input = open(filename)
-output = open(filename + ".new", "w")
+output = open(f"{filename}.new", "w")
 parsing_controllers = False
 controllers = []
 controller_guids = {}
